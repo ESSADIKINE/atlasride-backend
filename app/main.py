@@ -13,7 +13,7 @@ app = FastAPI(
 # CORS configuration for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://atlasride-frontend-git-main-essadikines-projects.vercel.app/","https://atlasride-frontend.vercel.app/","https://atlasride-backend.vercel.app/api"],
+    allow_origins=["https://atlasride-frontend-git-main-essadikines-projects.vercel.app/","https://atlasride-frontend.vercel.app/","https://atlasride-frontend-brzmp2go8-essadikines-projects.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
